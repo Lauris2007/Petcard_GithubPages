@@ -4,7 +4,7 @@ import fs from 'fs';
 
 export default defineConfig({
   plugins: [vue()],
-  base: 'https://lauris_2007.github.io/Petcard_GithubPages/',
+  base: '/Petcard_GithubPages/',
   server: {
     host: 'localhost',
     port: 5173,
